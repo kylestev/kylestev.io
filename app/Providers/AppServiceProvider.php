@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Kylestev\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

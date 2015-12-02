@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Kylestev\Http\Controllers\Auth;
 
-use App\User;
+use Kylestev\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Kylestev\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

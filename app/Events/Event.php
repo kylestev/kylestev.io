@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Kylestev\Events;
 
 abstract class Event
 {
