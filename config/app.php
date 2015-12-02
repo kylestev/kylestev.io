@@ -145,6 +145,11 @@ return [
         Kylestev\Providers\EventServiceProvider::class,
         Kylestev\Providers\RouteServiceProvider::class,
 
+        /**
+         * 3rd Party Service Providers...
+         */
+        Dingo\Api\Provider\LaravelServiceProvider::class,
+
     ],
 
     /*
