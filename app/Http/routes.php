@@ -12,12 +12,11 @@
 */
 
 Route::get('/', function () {
-    return redirect('http://resume.kylestev.io');
-    // return view('welcome');
+    return view('welcome');
 });
-
 
 $api = app('Dingo\Api\Routing\Router');
 $api->version(['v1'], function ($api) {
     $api->resource('articles', 'Kylestev\API\V1\Controllers\ArticleController');
+    $api->resource('repos', 'Kylestev\API\V1\Controllers\RepoController');
 });

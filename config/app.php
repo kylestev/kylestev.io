@@ -149,6 +149,7 @@ return [
          * 3rd Party Service Providers...
          */
         Dingo\Api\Provider\LaravelServiceProvider::class,
+        GrahamCampbell\GitHub\GitHubServiceProvider::class,
 
     ],
 

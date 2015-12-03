@@ -16,7 +16,7 @@
         padding: 0;
         width: 100%;
         display: table;
-        font-weight: 100;
+        font-weight: 600;
         font-family: 'Lato';
       }
 
@@ -38,9 +38,17 @@
   </head>
   <body>
     <div class="container">
+      <h1>Articles</h1>
       <div class="row">
         <div v-for="article in articles">
           <article-widget :article="article"></article-widget>
+        </div>
+      </div>
+      <hr />
+      <h1>Open Source Repositories</h1>
+      <div class="row" v-for="chunk in repoList">
+        <div class="col-md-4 col-sm-6 col-lg-3" v-for="repo in chunk">
+          <github-repo :repo="repo"></github-repo>
         </div>
       </div>
     </div>
