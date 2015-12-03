@@ -8,6 +8,7 @@
   }
 
   .Article p {
+    margin: 0.5em 0;
     font-size: 16px;
   }
 </style>
