@@ -47,7 +47,7 @@
       <hr />
       <h1>Open Source Repositories</h1>
       <div class="row" v-for="chunk in repoList">
-        <div class="col-md-4 col-sm-6 col-lg-3" v-for="repo in chunk">
+        <div class="col-md-4" v-for="repo in chunk">
           <github-repo :repo="repo"></github-repo>
         </div>
       </div>
