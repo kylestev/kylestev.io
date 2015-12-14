@@ -29,8 +29,7 @@ export default {
 
   methods: {
     visitArticle() {
-      let win = window.open(this.article.article_url, '_blank');
-      win.focus();
+      window.open(this.article.article_url, '_blank').focus();
     }
   }
 }
