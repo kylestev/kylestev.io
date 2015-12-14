@@ -16,7 +16,7 @@ class ArticleController extends BaseController
 
     public function index()
     {
-        return Article::all();
+        return Article::whereNotNull('published_at')->get();
     }
 
 }
